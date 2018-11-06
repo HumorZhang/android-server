@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uuch.android_zxinglibrary">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".QR.MApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Sign"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginAndReg.ChooseActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginAndReg.LoginActivity" />
+        <activity android:name=".QR.BaseActivity" />
+        <activity android:name=".QR.SecondActivity" />
+        <activity android:name=".QR.ThreeActivity" />
+        <activity android:name=".QR.MainActivity" />
+        <activity android:name=".QR.Main2Activity" />
+        <activity android:name=".QR.successActivity" />
+        <activity android:name=".SignSituation.Type1Activity" />
+        <activity android:name=".SignSituation.Type2Activity" />
+        <activity android:name=".LoginAndReg.RegActivity" />
+        <activity android:name=".QR.FActivity" />
+        <activity android:name=".QR.ChakanActivity" />
+        <activity android:name=".Timetabel.Timetable" />
+        <activity android:name=".HistoryAndRepair.HistoryActivity" />
+        <activity android:name=".HistoryAndRepair.LookHistoryActivity" />
+        <activity android:name=".LoginAndReg.TeacherActivity"></activity>
+    </application>
+
+</manifest>

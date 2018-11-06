@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></Spinner>
+    <Button
+        android:id="@+id/xuanzhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始签到"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/jieshu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="结束签到"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/xuanzhe"
+        />
+    <Button
+        android:id="@+id/ty1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看已签到"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/jieshu"
+        />
+
+    <Button
+        android:id="@+id/ty2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看未签到"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/ty1"
+        />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看历史签到"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/ty2"
+        />
+
+    <Button
+        android:id="@+id/erweima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成二维码"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/history"
+        />
+
+
+</RelativeLayout>

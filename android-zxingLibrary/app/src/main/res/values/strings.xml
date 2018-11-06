@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Sign</string>
+    <string name="title_activity_three">ThreeActivity</string>
+    <string-array name="place">
+        <item>1_1</item>
+        <item>1_2</item>
+        <item>1_3</item>
+        <item>1_4</item>
+
+        <item>2_1</item>
+        <item>2_2</item>
+        <item>2_3</item>
+        <item>2_4</item>
+
+        <item>3_1</item>
+        <item>3_2</item>
+        <item>3_3</item>
+        <item>3_4</item>
+
+        <item>4_1</item>
+        <item>4_2</item>
+        <item>4_3</item>
+        <item>4_4</item>
+
+        <item>5_1</item>
+        <item>5_2</item>
+        <item>5_3</item>
+        <item>5_4</item>
+    </string-array>
+</resources>

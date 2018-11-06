@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sign</servlet-name>
+    <servlet-class>com.servlet.Sign</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Type</servlet-name>
+    <servlet-class>com.servlet.Type</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clear</servlet-name>
+    <servlet-class>com.servlet.Clear</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Gonggao</servlet-name>
+    <servlet-class>com.servlet.Gonggao</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Fabu</servlet-name>
+    <servlet-class>com.servlet.Fabu</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Kebiao</servlet-name>
+    <servlet-class>com.servlet.Kebiao</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Kaiqi</servlet-name>
+    <servlet-class>com.servlet.Kaiqi</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>jieshu</servlet-name>
+    <servlet-class>com.servlet.jieshu</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>End</servlet-name>
+    <servlet-class>com.servlet.End</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Renyuan</servlet-name>
+    <servlet-class>com.servlet.Renyuan</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Teacher</servlet-name>
+    <servlet-class>com.servlet.Teacher</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sign</servlet-name>
+    <url-pattern>/servlet/Sign</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Type</servlet-name>
+    <url-pattern>/servlet/Type</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clear</servlet-name>
+    <url-pattern>/servlet/Clear</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Gonggao</servlet-name>
+    <url-pattern>/servlet/Gonggao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Fabu</servlet-name>
+    <url-pattern>/servlet/Fabu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Kebiao</servlet-name>
+    <url-pattern>/servlet/Kebiao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Kaiqi</servlet-name>
+    <url-pattern>/servlet/Kaiqi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jieshu</servlet-name>
+    <url-pattern>/servlet/jieshu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>End</servlet-name>
+    <url-pattern>/servlet/End</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Renyuan</servlet-name>
+    <url-pattern>/servlet/Renyuan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Teacher</servlet-name>
+    <url-pattern>/servlet/Teacher</url-pattern>
+  </servlet-mapping>
+	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
